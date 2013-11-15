@@ -1,0 +1,57 @@
+NYU: 
+  redirects: 
+    - /
+    - /nyu
+  default_precision: contains
+  searches:
+    contains: economist
+    exact: little
+    starts_with: global warming
+NYUAD: 
+  redirects:
+    - /nyuad
+  default_precision: contains
+  searches:
+    contains: economist
+    exact: little
+    starts_with: global warming
+NYUSH: 
+  redirects:
+    - /nyush
+  default_precision: contains
+  searches:
+    contains: economist
+    exact: little
+    starts_with: global warming
+NS:
+  redirects:
+    - /ns
+  default_precision: contains
+  searches:
+    contains: economist
+    exact: little
+    starts_with: global warming
+CU:
+  redirects:
+    - /cu
+  default_precision: contains
+  searches:
+    contains: economist
+    exact: little
+    starts_with: global warming
+NYSID:
+  redirects:
+    - /nysid
+  default_precision: contains
+  searches:
+    contains: economist
+    exact: little
+    starts_with: global warming
+HSL:
+  redirects:
+    - /hsl
+  default_precision: contains
+  searches:
+    contains: economist
+    exact: little
+    starts_with: global warming

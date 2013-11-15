@@ -1,0 +1,28 @@
+NYU: 
+  redirects: 
+    - /
+  breadcrumb: NYU Libraries
+  databases:
+    default_database: Africana Studies
+    searches: jack
+NYUAD: 
+  redirects:
+    - /nyuad
+  breadcrumb: NYUAD Library
+  databases:
+    default_database: Africana Studies
+    searches: jack
+NYUSH: 
+  redirects:
+    - /nyush
+  breadcrumb: NYU Shanghai Library
+  databases:
+    default_database: Africana Studies
+    searches: jack
+NS:
+  redirects:
+    - /ns
+  breadcrumb: New School Libraries 
+  databases:
+    default_database: Africana Studies
+    searches: jack

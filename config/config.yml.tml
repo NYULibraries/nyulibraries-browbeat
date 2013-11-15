@@ -1,0 +1,12 @@
+bobcat: http://bobcat.library.nyu.edu
+email1: automated_testing1@library.nyu.edu
+email2: automated_testing2@library.nyu.edu
+saucelabsuser: user
+saucelabskey: key
+nyu_username: netid
+nyu_password: password
+nyu_firstname: First Name
+consortium_username: DS51D
+consortium_password: ds51
+consortium_firstname: "DS51D, TEST-RECORD"
+local: true
