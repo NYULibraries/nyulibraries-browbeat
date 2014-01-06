@@ -47,5 +47,5 @@ module NyuLibraries::GetIt::Login
 end
 
 class GetItTest < NyuLibraries::GetIt::TestCase
-  # include NyuLibraries::GetIt::Login
+  include NyuLibraries::GetIt::Login
 end

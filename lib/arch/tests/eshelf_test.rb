@@ -53,5 +53,5 @@ module NyuLibraries::Arch
 end
 
 class ArchTest < NyuLibraries::Arch::TestCase
-  # include NyuLibraries::Arch::Eshelf
+  include NyuLibraries::Arch::Eshelf
 end

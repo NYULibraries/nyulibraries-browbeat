@@ -70,5 +70,5 @@ module NyuLibraries::Arch::NsSearch
 end
 
 class ArchTest < NyuLibraries::Arch::TestCase
-  # include NyuLibraries::Arch::NsSearch
+  include NyuLibraries::Arch::NsSearch
 end

@@ -18,6 +18,7 @@ module NyuLibraries::Rooms::Reservation
           pick_today.click
           generate_grid.click
           wait_for_reservation_modal
+          
           select_individual_room
           submit_reservation
           wait_for_exit_reservation_modal

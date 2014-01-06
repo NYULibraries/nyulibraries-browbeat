@@ -26,5 +26,5 @@ module NyuLibraries::TseTse::Home
 end
 
 class TseTseTest < NyuLibraries::TseTse::TestCase
-  # include NyuLibraries::TseTse::Home
+  include NyuLibraries::TseTse::Home
 end

@@ -91,5 +91,5 @@ module NyuLibraries::Arch::Brief
 end
 
 class ArchTest < NyuLibraries::Arch::TestCase
-  # include NyuLibraries::Arch::Brief
+  include NyuLibraries::Arch::Brief
 end

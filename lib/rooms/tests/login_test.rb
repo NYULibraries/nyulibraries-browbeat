@@ -22,7 +22,7 @@ module NyuLibraries::Rooms::Login
           assert reservation_how_long?
           assert generate_grid?
           assert sidebar?
-          assert_equal("Reserve a room", page_title)
+          assert_equal("Reserve a study space", page_title)
         end
       end
     end
@@ -30,5 +30,5 @@ module NyuLibraries::Rooms::Login
 end
 
 class RoomsTest < NyuLibraries::Rooms::TestCase
-  include NyuLibraries::Rooms::Login
+  # include NyuLibraries::Rooms::Login
 end

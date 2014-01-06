@@ -27,5 +27,5 @@ module NyuLibraries::Arch::Home
 end
 
 class ArchTest < NyuLibraries::Arch::TestCase
-  # include NyuLibraries::Arch::Home
+  include NyuLibraries::Arch::Home
 end

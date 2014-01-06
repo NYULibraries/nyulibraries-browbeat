@@ -129,5 +129,5 @@ module NyuLibraries::Arch::Login
 end
 
 class ArchTest < NyuLibraries::Arch::TestCase
-  # include NyuLibraries::Arch::Login
+  include NyuLibraries::Arch::Login
 end

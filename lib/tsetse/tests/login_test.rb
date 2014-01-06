@@ -44,5 +44,5 @@ module NyuLibraries::TseTse::Login
 end
 
 class TseTseTest < NyuLibraries::TseTse::TestCase
-  # include NyuLibraries::TseTse::Login
+  include NyuLibraries::TseTse::Login
 end

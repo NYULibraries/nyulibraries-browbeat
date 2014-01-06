@@ -168,5 +168,5 @@ module NyuLibraries::Primo::Login
 end
 
 class PrimoTest < NyuLibraries::Primo::TestCase
-  # include NyuLibraries::Primo::Login
+  include NyuLibraries::Primo::Login
 end

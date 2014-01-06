@@ -26,5 +26,5 @@ module NyuLibraries::GetIt::Home
 end
 
 class GetItTest < NyuLibraries::GetIt::TestCase
-  # include NyuLibraries::GetIt::Home
+  include NyuLibraries::GetIt::Home
 end

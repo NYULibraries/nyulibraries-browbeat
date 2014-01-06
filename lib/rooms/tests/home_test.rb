@@ -17,5 +17,5 @@ module NyuLibraries::Rooms::Home
 end
 
 class RoomsTest < NyuLibraries::Rooms::TestCase
-  include NyuLibraries::Rooms::Home
+  # include NyuLibraries::Rooms::Home
 end
