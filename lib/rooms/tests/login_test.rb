@@ -30,5 +30,5 @@ module NyuLibraries::Rooms::Login
 end
 
 class RoomsTest < NyuLibraries::Rooms::TestCase
-  # include NyuLibraries::Rooms::Login
+  include NyuLibraries::Rooms::Login
 end
