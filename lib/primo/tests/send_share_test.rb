@@ -108,5 +108,5 @@ module NyuLibraries::Primo::SendShare
 end
 
 class PrimoTest < NyuLibraries::Primo::TestCase
-  # include NyuLibraries::Primo::SendShare
+  include NyuLibraries::Primo::SendShare
 end
