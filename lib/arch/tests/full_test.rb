@@ -25,5 +25,5 @@ module NyuLibraries::Arch::Full
 end
 
 class ArchTest < NyuLibraries::Arch::TestCase
-  include NyuLibraries::Arch::Full
+  # include NyuLibraries::Arch::Full
 end

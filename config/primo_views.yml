@@ -218,7 +218,7 @@ NYSID:
     all:
       default_precision: contains
       searches:
-        contains: fashion
+        contains: bridge
         exact: interior design
         starts_with: color
       sorts:
