@@ -1,12 +1,12 @@
 =begin rdoc
-== Daniel
-Tests for Primo daniel results page.
+== Left
+Tests for Primo left-achored search.
 
 =end
 require File.expand_path("#{File.dirname(__FILE__)}/../test_case")
-module Primo::Daniel
-  # Test full details page for common elements
-  def test_daniel
+module NyuLibraries::Primo::Left
+  # Tests left-anchored author/creator search results for specific title
+  def test_left
     @current_test_name = "Primo - Testing Left-Anchored Author Search for Case-Sensitivity?"
     each_driver do
       each_view_default_precision_search do |search_term|
