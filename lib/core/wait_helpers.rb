@@ -73,7 +73,7 @@ module NyuLibraries
         
         # Wait for shibboleth button to appear.
         def wait_for_shibboleth_button_element()
-          wait_for :shibboleth_button_element, "Error waiting for shibboleth button"
+          wait_for_element_by_class :btn, "Error waiting for shibboleth button"
         end
         
         # Wait for logout element to appear.

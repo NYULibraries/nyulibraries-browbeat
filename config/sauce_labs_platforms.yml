@@ -1,13 +1,13 @@
-Linux:
+# Linux:
   # firefox: ["22", "23", "24"]
   # Proxy setting in Linux Opera cause problems.
   # Methinks it's a bug in the ruby gem.
   # TODO: Log an issue here: https://code.google.com/p/selenium/issues/list
   # opera: ["12"]
-  chrome: ["28"]
+  # chrome: ["28"]
   # android: ["4"]
 Mac 10.6:
-  # firefox: ["23", "24", "25"]
+  firefox: ["23", "24", "25"]
   chrome: ["28"]
   # safari: ["5"]
   # iphone: ["4", "5"]
@@ -18,17 +18,17 @@ Mac 10.8:
   # iphone: ["5.1", "6"]
   # ipad: ["5.1", "6"]
 Windows 2003:
-  # firefox: ["23", "24", "25"]
+  firefox: ["23", "24", "25"]
   chrome: ["29","27"]
   # ie: ["8", "7"]
   # opera: ["12"]
 Windows 7:
   chrome: ["27"]
-  # firefox: ["23", "24", "25"]
-  # ie: ["9", "8"]
+  firefox: ["23", "24", "25"]
+  ie: ["9", "8"]
   # safari: ["5"]
   # opera: ["12"]
 Windows 8:
-  # firefox: ["23", "24", "25"]
-  # ie: ["10"]
+  firefox: ["23", "24", "25"]
+  ie: ["10"]
   chrome: ["27"]

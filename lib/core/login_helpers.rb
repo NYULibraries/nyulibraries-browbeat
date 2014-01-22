@@ -80,7 +80,7 @@ module NyuLibraries
         
         # The element representing the big shibboleth button.
         def shibboleth_button_element
-          @driver.find_element(:css, "a.btn.shibboleth")
+          @driver.find_element(:css, "a.btn")
         end
         
         # The element representing the shibboleth form.

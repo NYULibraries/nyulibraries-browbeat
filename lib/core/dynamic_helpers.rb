@@ -76,7 +76,14 @@ module NyuLibraries
             #Defines the method and caches it to the class
             self.class.send(:define_method, meth) do
               if element_id_exists_method?(meth)
-                return respond_to?(meth.to_s.chop)
+                if respond_to?(meth.to_s.chop)
+                  begin
+                    send meth.to_s.chop
+                  rescue Selenium::WebDriver::Error::NoSuchElementError => e
+                    return false
+                  end
+                  return true
+                end
               elsif wait_method?(meth)
                 send :wait_for, meth.to_s.sub('wait_for_','').to_sym
               elsif navigate_method?(meth)

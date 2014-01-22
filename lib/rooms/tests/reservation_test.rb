@@ -33,5 +33,5 @@ module NyuLibraries::Rooms::Reservation
 end
 
 class RoomsTest < NyuLibraries::Rooms::TestCase
-  include NyuLibraries::Rooms::Reservation
+  # include NyuLibraries::Rooms::Reservation
 end

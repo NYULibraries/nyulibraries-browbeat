@@ -30,5 +30,5 @@ module NyuLibraries::GetIt::Search
 end
 
 class GetItTest < NyuLibraries::GetIt::TestCase
-  include NyuLibraries::GetIt::Search
+  # include NyuLibraries::GetIt::Search
 end
