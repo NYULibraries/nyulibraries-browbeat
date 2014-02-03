@@ -1,6 +1,6 @@
 =begin rdoc
 == Left
-Tests for Primo default fix 16086, 'starts with' (left-achored), case-sensitive search.
+Tests for Primo default fix 16086, 'starts with' (left-anchored), case-sensitive search.
 
 =end
 require File.expand_path("#{File.dirname(__FILE__)}/../test_case")
@@ -8,6 +8,7 @@ module NyuLibraries::Primo::Left
   # Tests 'starts with' proper-case title search for results
   def test_left
     @current_test_name = "Primo - Testing Left-Anchored Title Search for Case-Sensitivity"
+    # Add wait time for various steps ???
     each_driver do
       each_view_default_precision_search do |search_term|
         break unless (@view.eql? "NYU" and @tab.eql? "all")
@@ -17,7 +18,7 @@ module NyuLibraries::Primo::Left
         # Search Primo
         submit_search "McCarthy era blacklisting of school teachers"
         # Click first link
-        click_details_link 1
+        click_details_link
         # Make sure the common elements are there
         common_elements?
         # sleep 5
@@ -27,3 +28,7 @@ module NyuLibraries::Primo::Left
     end
   end
 end
+
+class PrimoTest < NyuLibraries::Primo::TestCase
+  include NyuLibraries::Primo::Left
+end 
