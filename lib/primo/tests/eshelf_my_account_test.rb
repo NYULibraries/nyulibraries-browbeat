@@ -36,5 +36,5 @@ module NyuLibraries::Primo
 end
 
 class PrimoTest < NyuLibraries::Primo::TestCase
-  include NyuLibraries::Primo::Eshelf::MyAccount
+  # include NyuLibraries::Primo::Eshelf::MyAccount
 end

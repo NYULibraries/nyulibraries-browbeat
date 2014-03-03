@@ -36,5 +36,5 @@ module NyuLibraries::Primo::ExactTitle
 end
 
 class PrimoTest < NyuLibraries::Primo::TestCase
-  include NyuLibraries::Primo::ExactTitle
+  # include NyuLibraries::Primo::ExactTitle
 end

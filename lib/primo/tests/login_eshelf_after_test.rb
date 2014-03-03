@@ -42,5 +42,5 @@ module NyuLibraries::Primo::LoginEshelfAfter
 end
 
 class PrimoTest < NyuLibraries::Primo::TestCase
-  include NyuLibraries::Primo::LoginEshelfAfter
+  # include NyuLibraries::Primo::LoginEshelfAfter
 end

@@ -18,5 +18,5 @@ module NyuLibraries::Primo::Home
 end
 
 class PrimoTest < NyuLibraries::Primo::TestCase
-  include NyuLibraries::Primo::Home
+  # include NyuLibraries::Primo::Home
 end

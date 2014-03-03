@@ -28,5 +28,5 @@ module NyuLibraries::Primo::Contains
 end
 
 class PrimoTest < NyuLibraries::Primo::TestCase
-  include NyuLibraries::Primo::Contains
+  # include NyuLibraries::Primo::Contains
 end

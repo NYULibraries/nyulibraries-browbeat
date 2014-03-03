@@ -21,5 +21,5 @@ module NyuLibraries::Primo::Redirects
 end
 
 class PrimoTest < NyuLibraries::Primo::TestCase
-  include NyuLibraries::Primo::Redirects
+  # include NyuLibraries::Primo::Redirects
 end
