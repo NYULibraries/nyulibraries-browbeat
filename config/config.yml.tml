@@ -1,4 +1,5 @@
 bobcat: http://bobcat.library.nyu.edu
+bobcat_context: default
 email1: automated_testing1@library.nyu.edu
 email2: automated_testing2@library.nyu.edu
 saucelabsuser: user
