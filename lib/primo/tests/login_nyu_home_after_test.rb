@@ -27,5 +27,5 @@ module NyuLibraries::Primo::LoginNyuHomeAfter
 end
 
 class PrimoTest < NyuLibraries::Primo::TestCase
-  include NyuLibraries::Primo::LoginNyuHomeAfter
+  # include NyuLibraries::Primo::LoginNyuHomeAfter
 end

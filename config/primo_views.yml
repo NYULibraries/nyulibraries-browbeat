@@ -35,307 +35,308 @@ NYU:
         title: 
           xpath: title
           order: ascending
-NYUAD: 
-  redirects:
-    - /nyuad
-  tabs:
-    all:
-      default_precision: contains
-      searches:
-        contains: digital divide
-        exact: arabian nights
-        starts_with: global
-      sorts:
-        date-newest: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-    nyuadcr:
-      default_precision: contains
-      searches:
-        contains: digital
-        exact: psychology of
-        starts_with: art
-      sorts:
-        date-newest: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-NYUSH: 
-  redirects:
-    - /nyush
-  tabs:
-    all:
-      default_precision: contains
-      searches:
-        contains: digital
-        exact: arabian nights
-        starts_with: global warming
-      sorts:
-        date-newest: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-    nyushcr:
-      default_precision: contains
-      searches:
-        contains: shanghai
-        exact: shanghai
-        starts_with: shanghai
-      sorts:
-        date-newest: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-NS:
-  redirects:
-    - /newschool
-  tabs:
-    all:
-      default_precision: contains
-      searches:
-        contains: digital divide
-        exact: little
-        starts_with: global warming
-      sorts:
-        date: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-    ns:
-      default_precision: contains
-      searches:
-        contains: digital divide
-        exact: computer animation
-        starts_with: global warming
-      sorts:
-        date: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-    nscr:
-      default_precision: contains
-      searches:
-        contains: digital
-        exact: introduction to
-        starts_with: art
-      sorts:
-        date: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-CU:
-  redirects:
-    - /cooper
-  tabs:
-    all:
-      default_precision: contains
-      searches:
-        contains: digital divide
-        exact: little prince
-        starts_with: global warming
-      sorts:
-        date: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-    cu:
-      default_precision: contains
-      searches:
-        contains: digital
-        exact: african
-        starts_with: global
-      sorts:
-        date: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-    cucr:
-      default_precision: contains
-      searches:
-        contains: digital
-        exact: introduction to
-        starts_with: art
-      sorts:
-        date: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-NYSID:
-  redirects:
-    - /nysid
-  tabs:
-    all:
-      default_precision: contains
-      searches:
-        contains: fashion
-        exact: interior design
-        starts_with: color
-      sorts:
-        date: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-    reserves:
-      default_precision: contains
-      searches:
-        contains: fashion
-        exact: interior design
-        starts_with: color
-      sorts:
-        date: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-BHS:
-  redirects:
-    - /brooklynhistory
-  tabs:
-    bhs:
-      default_precision: contains
-      searches:
-        contains: bedford stuyvesant
-        exact: greenpoint
-        starts_with: coney island
-      sorts:
-        date: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-    all:
-      default_precision: contains
-      searches:
-        contains: digital divide
-        exact: little prince
-        starts_with: global warming
-      sorts:
-        date: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-NYHS:
-  redirects:
-    - /nyhistory
-  tabs:
-    nyhs:
-      default_precision: contains
-      searches:
-        contains: slavery
-        exact: hudson river valley
-        starts_with: african
-      sorts:
-        date: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-    all:
-      default_precision: contains
-      searches:
-        contains: digital divide
-        exact: little prince
-        starts_with: global warming
-      sorts:
-        date: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
-HSL:
-  redirects:
-    - /hsl
-  tabs:
-    all:
-      default_precision: contains
-      searches:
-        contains: slavery
-        exact: atlas
-        starts_with: anatomy
-      sorts:
-        date: 
-          xpath: creationdate
-          order: descending
-        author:
-          xpath: author
-          order: ascending
-        title: 
-          xpath: title
-          order: ascending
+# NYUAD: 
+#   redirects:
+#     - /nyuad
+#   tabs:
+#     all:
+#       default_precision: contains
+#       searches:
+#         contains: digital divide
+#         exact: arabian nights
+#         starts_with: global
+#       sorts:
+#         date-newest: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+#     nyuadcr:
+#       default_precision: contains
+#       searches:
+#         contains: digital
+#         exact: psychology of
+#         starts_with: art
+#       sorts:
+#         date-newest: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+# NYUSH: 
+#   redirects:
+#     - /nyush
+#   tabs:
+#     all:
+#       default_precision: contains
+#       searches:
+#         contains: digital
+#         exact: arabian nights
+#         starts_with: global warming
+#       sorts:
+#         date-newest: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+#     nyushcr:
+#       default_precision: contains
+#       searches:
+#         contains: shanghai
+#         exact: shanghai
+#         starts_with: shanghai
+#       sorts:
+#         date-newest: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+# NS:
+#   redirects:
+#     - /newschool
+#   tabs:
+#     all:
+#       default_precision: contains
+#       searches:
+#         contains: digital divide
+#         exact: little
+#         starts_with: global warming
+#       sorts:
+#         date: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+#     ns:
+#       default_precision: contains
+#       searches:
+#         contains: digital divide
+#         exact: computer animation
+#         starts_with: global warming
+#       sorts:
+#         date: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+#     nscr:
+#       default_precision: contains
+#       searches:
+#         contains: digital
+#         exact: introduction to
+#         starts_with: art
+#       sorts:
+#         date: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+# CU:
+#   redirects:
+#     - /cooper
+#   tabs:
+#     all:
+#       default_precision: contains
+#       searches:
+#         contains: digital divide
+#         exact: little prince
+#         starts_with: global warming
+#       sorts:
+#         date: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+#     cu:
+#       default_precision: contains
+#       searches:
+#         contains: digital
+#         exact: african
+#         starts_with: global
+#       sorts:
+#         date: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+#     cucr:
+#       default_precision: contains
+#       searches:
+#         contains: digital
+#         exact: introduction to
+#         starts_with: art
+#       sorts:
+#         date: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+# NYSID:
+#   redirects:
+#     - /nysid
+#   tabs:
+#     all:
+#       default_precision: contains
+#       searches:
+#         contains: fashion
+#         exact: interior design
+#         starts_with: color
+#       sorts:
+#         date: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+#     reserves:
+#       default_precision: contains
+#       searches:
+#         contains: fashion
+#         exact: interior design
+#         starts_with: color
+#       sorts:
+#         date: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+# BHS:
+#   redirects:
+#     - /brooklynhistory
+#   tabs:
+#     bhs:
+#       default_precision: contains
+#       searches:
+#         contains: bedford stuyvesant
+#         exact: greenpoint
+#         starts_with: coney island
+#       sorts:
+#         date: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+#     all:
+#       default_precision: contains
+#       searches:
+#         contains: digital divide
+#         exact: little prince
+#         starts_with: global warming
+#       sorts:
+#         date: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+# NYHS:
+#   redirects:
+#     - /nyhistory
+#   tabs:
+#     nyhs:
+#       default_precision: contains
+#       searches:
+#         contains: slavery
+#         exact: hudson river valley
+#         starts_with: african
+#       sorts:
+#         date: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+#     all:
+#       default_precision: contains
+#       searches:
+#         contains: digital divide
+#         exact: little prince
+#         starts_with: global warming
+#       sorts:
+#         date: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending
+#       case: McCarthy
+# HSL:
+#   redirects:
+#     - /hsl
+#   tabs:
+#     all:
+#       default_precision: contains
+#       searches:
+#         contains: slavery
+#         exact: atlas
+#         starts_with: anatomy
+#       sorts:
+#         date: 
+#           xpath: creationdate
+#           order: descending
+#         author:
+#           xpath: author
+#           order: ascending
+#         title: 
+#           xpath: title
+#           order: ascending

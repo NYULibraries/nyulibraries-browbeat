@@ -22,5 +22,5 @@ module NyuLibraries::Primo::Full
 end
 
 class PrimoTest < NyuLibraries::Primo::TestCase
-  include NyuLibraries::Primo::Full
+  # include NyuLibraries::Primo::Full
 end

@@ -26,5 +26,5 @@ module NyuLibraries::Primo::Brief
 end
 
 class PrimoTest < NyuLibraries::Primo::TestCase
-  include NyuLibraries::Primo::Brief
+  # include NyuLibraries::Primo::Brief
 end

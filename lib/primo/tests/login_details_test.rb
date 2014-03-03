@@ -30,5 +30,5 @@ module NyuLibraries::Primo::LoginDetails
 end
 
 class PrimoTest < NyuLibraries::Primo::TestCase
-  include NyuLibraries::Primo::LoginDetails
+  # include NyuLibraries::Primo::LoginDetails
 end

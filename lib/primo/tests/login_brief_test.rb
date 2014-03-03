@@ -29,5 +29,5 @@ module NyuLibraries::Primo::LoginBrief
 end
 
 class PrimoTest < NyuLibraries::Primo::TestCase
-  include NyuLibraries::Primo::LoginBrief
+  # include NyuLibraries::Primo::LoginBrief
 end
