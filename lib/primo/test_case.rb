@@ -13,6 +13,7 @@ module NyuLibraries
         @view = "NYU"
         @tab = "all"
         @bobcat = @@config["bobcat"]
+        @context = @@config["bobcat_context"] || "default"
         @search_url = "#{@bobcat}/primo_library/libweb/action/search.do"
         @email1 = @@config["email1"]
         @email2 = @@config["email2"]

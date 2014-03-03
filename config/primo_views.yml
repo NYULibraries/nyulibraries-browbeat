@@ -6,9 +6,14 @@ NYU:
     all:
       default_precision: contains
       searches:
-        contains: digital divide
-        exact: little
-        starts_with: global warming
+        default:
+          contains: digital divide
+          exact: little
+          starts_with: global warming
+        production:
+          contains: digital divide
+          exact: little
+          starts_with: global warming
       sorts:
         date: 
           xpath: creationdate
@@ -22,9 +27,10 @@ NYU:
     reserves:
       default_precision: contains
       searches:
-        contains: digital
-        exact: social work
-        starts_with: social work
+        default:
+          contains: digital
+          exact: social work
+          starts_with: social work
       sorts:
         date: 
           xpath: creationdate
@@ -42,9 +48,10 @@ NYUAD:
     all:
       default_precision: contains
       searches:
-        contains: digital divide
-        exact: arabian nights
-        starts_with: global
+        default:
+          contains: digital divide
+          exact: arabian nights
+          starts_with: global
       sorts:
         date-newest: 
           xpath: creationdate
@@ -58,9 +65,10 @@ NYUAD:
     nyuadcr:
       default_precision: contains
       searches:
-        contains: digital
-        exact: psychology of
-        starts_with: art
+        default:
+          contains: digital
+          exact: psychology of
+          starts_with: art
       sorts:
         date-newest: 
           xpath: creationdate
@@ -78,9 +86,10 @@ NYUSH:
     all:
       default_precision: contains
       searches:
-        contains: digital
-        exact: arabian nights
-        starts_with: global warming
+        default:
+          contains: digital
+          exact: arabian nights
+          starts_with: global warming
       sorts:
         date-newest: 
           xpath: creationdate
@@ -94,9 +103,10 @@ NYUSH:
     nyushcr:
       default_precision: contains
       searches:
-        contains: shanghai
-        exact: shanghai
-        starts_with: shanghai
+        default:
+          contains: shanghai
+          exact: shanghai
+          starts_with: shanghai
       sorts:
         date-newest: 
           xpath: creationdate
@@ -114,9 +124,10 @@ NS:
     all:
       default_precision: contains
       searches:
-        contains: digital divide
-        exact: little
-        starts_with: global warming
+        default:
+          contains: digital divide
+          exact: little
+          starts_with: global warming
       sorts:
         date: 
           xpath: creationdate
@@ -130,9 +141,10 @@ NS:
     ns:
       default_precision: contains
       searches:
-        contains: digital divide
-        exact: computer animation
-        starts_with: global warming
+        default:
+          contains: digital divide
+          exact: computer animation
+          starts_with: global warming
       sorts:
         date: 
           xpath: creationdate
@@ -146,9 +158,10 @@ NS:
     nscr:
       default_precision: contains
       searches:
-        contains: digital
-        exact: introduction to
-        starts_with: art
+        default:
+          contains: digital
+          exact: introduction to
+          arts_with: art
       sorts:
         date: 
           xpath: creationdate
@@ -166,9 +179,10 @@ CU:
     all:
       default_precision: contains
       searches:
-        contains: digital divide
-        exact: little prince
-        starts_with: global warming
+        default:
+          contains: digital divide
+          exact: little prince
+          starts_with: global warming
       sorts:
         date: 
           xpath: creationdate
@@ -182,9 +196,10 @@ CU:
     cu:
       default_precision: contains
       searches:
-        contains: digital
-        exact: african
-        starts_with: global
+        default:
+          contains: digital
+          exact: african
+          starts_with: global
       sorts:
         date: 
           xpath: creationdate
@@ -198,9 +213,10 @@ CU:
     cucr:
       default_precision: contains
       searches:
-        contains: digital
-        exact: introduction to
-        starts_with: art
+        default:
+          contains: digital
+          exact: introduction to
+          starts_with: art
       sorts:
         date: 
           xpath: creationdate
@@ -218,9 +234,10 @@ NYSID:
     all:
       default_precision: contains
       searches:
-        contains: fashion
-        exact: interior design
-        starts_with: color
+        default:
+          contains: fashion
+          exact: interior design
+          starts_with: color
       sorts:
         date: 
           xpath: creationdate
@@ -234,9 +251,10 @@ NYSID:
     reserves:
       default_precision: contains
       searches:
-        contains: fashion
-        exact: interior design
-        starts_with: color
+        default:
+          contains: fashion
+          exact: interior design
+          starts_with: color
       sorts:
         date: 
           xpath: creationdate
@@ -254,9 +272,10 @@ BHS:
     bhs:
       default_precision: contains
       searches:
-        contains: bedford stuyvesant
-        exact: greenpoint
-        starts_with: coney island
+        default:
+          contains: bedford stuyvesant
+          exact: greenpoint
+          starts_with: coney island
       sorts:
         date: 
           xpath: creationdate
@@ -270,9 +289,10 @@ BHS:
     all:
       default_precision: contains
       searches:
-        contains: digital divide
-        exact: little prince
-        starts_with: global warming
+        default:
+          contains: digital divide
+          exact: little prince
+          starts_with: global warming
       sorts:
         date: 
           xpath: creationdate
@@ -290,9 +310,10 @@ NYHS:
     nyhs:
       default_precision: contains
       searches:
-        contains: slavery
-        exact: hudson river valley
-        starts_with: african
+        default:
+          contains: slavery
+          exact: hudson river valley
+          starts_with: african
       sorts:
         date: 
           xpath: creationdate
@@ -306,9 +327,10 @@ NYHS:
     all:
       default_precision: contains
       searches:
-        contains: digital divide
-        exact: little prince
-        starts_with: global warming
+        default:
+          contains: digital divide
+          exact: little prince
+          starts_with: global warming
       sorts:
         date: 
           xpath: creationdate
@@ -326,9 +348,10 @@ HSL:
     all:
       default_precision: contains
       searches:
-        contains: slavery
-        exact: atlas
-        starts_with: anatomy
+        default:
+          contains: slavery
+          exact: atlas
+          starts_with: anatomy
       sorts:
         date: 
           xpath: creationdate

@@ -154,7 +154,7 @@ module NyuLibraries
       # This method navigates to each tab.
       def each_view_searches(&block)
         each_view_tab do |tab_values|
-          yield tab_values["searches"]
+          yield tab_values["searches"][@context]
         end
       end
   
